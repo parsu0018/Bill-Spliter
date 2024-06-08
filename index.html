@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Split</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="name">
+        <h1>Bill Split</h1>
+    </div>
+
+
+    <div class="split">
+
+        <div class="left">
+            <div class="bill-price">
+                <input type="number" placeholder="Enter the Amount of Bill" class="bill_amount" autofocus>
+            </div>
+
+            <div class="tip">
+                <input type="number" placeholder="Enter Tip in Percentage" class="tip-value bill_amount">
+            </div>
+
+            <div class="friendCount">
+                <input type="number" class="count_of_friends bill_amount" placeholder="Enter Number of Friends "
+                    autofocus>
+            </div>
+
+            <div class="submit">
+                <button id="submit-btn"> Split Bill</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+
+
+        <div class="right">
+            <div class="cost com">
+                <p>Your Amount : </p>
+            </div>
+
+            <div class="total-tip com">
+                <p>Tip Cost: </p>
+            </div>
+            <div class="total_amount com">
+                <p>Payable Amount to each one is : </p>
+            </div>
+
+            <div class="last com">
+                <p>Total Cost :</p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
